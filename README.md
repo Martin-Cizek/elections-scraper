@@ -46,4 +46,4 @@ Kod obce;Nazev obce;Volici v seznamu;Vydane obalky;Platne hlasy;Občanská demok
 ```
 
 Jako oddelovac poli je ve vystupnim CSV souboru vzhledem k nastaveni Excelu v ceskem prostredi (carka ma vyznam desetinne tecky) pouzit strednik.
-Toto lze zmenit editaci promenne CSV_DELIMITER na zacatku skriptu na libovolny jiny znak.
+Toto lze zmenit editaci promenne CSV_DELIMITER na zacatku skriptu na libovolny jiny znak. 
