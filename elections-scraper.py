@@ -4,8 +4,6 @@ import requests
 from bs4 import BeautifulSoup
 
 CSV_DELIMITER = ';'
-LIST_DELIMITER = ', '
-
 
 # Vytahne relativni odkazy z uvodni stranky
 def extract_urls(main_page_url):
@@ -115,4 +113,3 @@ if __name__ == '__main__':
         exit('Ukoncuji elections-scraper.')
     print('Ukoncuji elections-scraper')
     exit(0)
-    
