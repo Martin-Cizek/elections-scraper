@@ -1,6 +1,6 @@
 # elections-scraper
 
-Skript koncentruje vysledky voleb ze vsech obci daneho uzemniho celku do tabulky v CSV souboru.
+Skript koncentruje vysledky voleb do Poslanecke snemovny CR 2017 ze vsech obci daneho uzemniho celku do tabulky v CSV souboru.
 Uzemni celek se skriptu zadava jako parametr pomoci URL stranky s vyberem obci. <a href="https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=10&xnumnuts=6103">Ukazka zde</a>.
 
 URL stranky s vyberem obci a jmeno vystupniho souboru se zadavaji jako 2 povinne parametry:
