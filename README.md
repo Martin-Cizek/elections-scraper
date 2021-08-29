@@ -17,7 +17,7 @@ python elections-scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj
 <i>Pokud vystupni soubor existuje, je bez dotazu prepsan. Pokud vystupni soubor nelze otevrit pro zapis, skript na to upozorni a ukonci se.
 V pripade spatne zadane URL nebo problemu s pripojenim na to skript upozorni a predcasne se ukonci bez zapisu do vystupniho souboru.</i>
 
-Pro spusteni je potreba mit nainstalovane knihovny <b>requests</b> a  <b>beautifulsoup4</b>. To lze udelat jednoduse pomoci manazeru pip a prilozeneho souboru requirements.txt:
+Knihovny potrebne pro spusteni lze nainstalovat jednoduse pomoci manazeru pip a prilozeneho souboru requirements.txt:
 
 ```
 pip install -r requirements.txt
