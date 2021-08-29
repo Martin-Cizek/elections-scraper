@@ -1,7 +1,7 @@
 # elections-scraper
 
 Skript koncentruje vysledky voleb ze vsech obci daneho uzemniho celku do tabulky v CSV souboru.
-Uzemni celek se skriptu zadava jako parametr pomoci URL stranky s vyberem obci. Napriklad jako <a href="https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=10&xnumnuts=6103">zde</a>.
+Uzemni celek se skriptu zadava jako parametr pomoci URL stranky s vyberem obci. <a href="https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=10&xnumnuts=6103">Ukazka zde</a>.
 
 URL stranky s vyberem obci a jmeno vystupniho souboru se zadavaji jako 2 povinne parametry:
 
@@ -14,10 +14,10 @@ Napriklad:
 python elections-scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=10&xnumnuts=6103" "pelhrimov.csv"
 ```
 
-Jako oddelovac poli je ve vystupnim CSV souboru vzhledem k nastaveni Excelu v ceskem prostredi (carka ma vyznam desetinne tecky) pouzit strednik.
-Toto lze zmenit editaci promenne CSV_DELIMITER na zacatku skriptu na libovolny jiny znak.
+<i>Pokud vystupni soubor existuje, je bez dotazu prepsan. Pokud vystupni soubor nelze otevrit pro zapis, skript na to upozorni a ukonci se.
+V pripade spatne zadane URL nebo problemu s pripojenim na to skript upozorni a predcasne se ukonci bez zapisu do vystupniho souboru.</i>
 
-Pro spusteni je potreba mit nainstalovane knihovny requests a  beautifulsoup4. To lze udelat jednoduse pomoci manazeru pip a prilozeneho souboru requirements.txt:
+Pro spusteni je potreba mit nainstalovane knihovny <b>requests</b> a  <b>beautifulsoup4</b>. To lze udelat jednoduse pomoci manazeru pip a prilozeneho souboru requirements.txt:
 
 ```
 pip install -r requirements.txt
@@ -45,3 +45,5 @@ Kod obce;Nazev obce;Volici v seznamu;Vydane obalky;Platne hlasy;Občanská demok
 561126;Bělá;45;29;27;2;0;0;5;0;1;0;0;0;0;0;0;4;0;0;2;0;6;0;0;0;1;6;0
 ```
 
+Jako oddelovac poli je ve vystupnim CSV souboru vzhledem k nastaveni Excelu v ceskem prostredi (carka ma vyznam desetinne tecky) pouzit strednik.
+Toto lze zmenit editaci promenne CSV_DELIMITER na zacatku skriptu na libovolny jiny znak.
