@@ -115,3 +115,4 @@ if __name__ == '__main__':
         exit('Ukoncuji elections-scraper.')
     print('Ukoncuji elections-scraper')
     exit(0)
+    
